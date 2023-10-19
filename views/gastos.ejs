@@ -16,12 +16,12 @@
       </tr>
     </thead>
     <tbody>
-      <% for(let pago of pagos) { %>
+      <% for(let consumo of consumos) { %>
         <tr>
-          <td><%= pago.id %></td>
-          <td><%= pago.fecha %></td>
-          <td><%= pago.importe %></td>
-          <td><%= pago.categoria %></td>
+          <td><%= consumo.id %></td>
+          <td><%= consumo.fecha %></td>
+          <td><%= consumo.importe %></td>
+          <td><%= consumo.categoria %></td>
         </tr>
       <% } %>
     </tbody>
